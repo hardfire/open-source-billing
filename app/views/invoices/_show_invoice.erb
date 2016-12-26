@@ -188,7 +188,7 @@
           <div class="preview_notes">
             <p class="preview_heading"><%= t('views.common.notes') %></p>
 
-            <p><%= @invoice.notes %></p>
+            <p><%= simple_format @invoice.notes %></p>
           </div>
         </div>
     <% end %>
